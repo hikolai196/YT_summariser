@@ -2,7 +2,7 @@ import re
 import yt_dlp
 from youtube_transcript_api import YouTubeTranscriptApi
 
-youtube_url = r"https://www.youtube.com/watch?v=DoMYrJQ8sSI"
+youtube_url = r"link_here"
 
 # Function to get the video ID from a YouTube URL
 def get_video_id(youtube_url):

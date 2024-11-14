@@ -3,7 +3,7 @@ import whisper
 import os
 
 AUDIO_DIR = r"./audio"
-youtube_url = "https://www.youtube.com/watch?v=om7iYSucLrk"
+youtube_url = "link_here"
 
 # Get video information
 def get_video_info(youtube_url):
