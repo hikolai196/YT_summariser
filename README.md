@@ -3,11 +3,24 @@
 ## Overview
 A Python-based tool that transforms YouTube video content into concise, readable summaries through advanced speech recognition and large language model technologies.
 
+One can use: 
+  `step1_transcribe_w_audio.py
+then
+  `step2_summarize.py
+for summarization.
+
+Where AI agent: 
+  `langgraphflow.py
+Binding the tools
+  `transcribe_tool.py
+  `summarize_agent.py
+is also available. 
+
 ## Features
-- 🎙️ Multilingual Speech-to-Text Conversion
-- 📝 Intelligent Content Summarization
-- 🔧 Configurable Summary Length
-- 🌐 Supports Multiple Transcription Methods
+- Multilingual Speech-to-Text Conversion
+- Intelligent Content Summarization
+- Configurable Summary Length
+- Supports Multiple Transcription Methods
 
 ## Technical Architecture
 - **Speech Recognition**: OpenAI Whisper
@@ -16,7 +29,7 @@ A Python-based tool that transforms YouTube video content into concise, readable
 
 ## Prerequisites
 - Python 3.11+
-- Ollama installed locally
+- Ollama is installed locally
 - pip install requirements.txt
 
 ## Installation
